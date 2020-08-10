@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#nav {
+width: 100%;
+  height: 90px;
+  background-color:rgb(35, 3, 54);
+border-bottom: 2px solid blue;
+}
+#img {
+margin: 0 auto;
+margin-top: -60px;
+
+}
+#table {
+  width: 1100px;
+  border: 3px solid green;
+  background-color: black
+}
+.card {
+  background-color: black;
+}
+th {
+  color: blue;
+  font-size:17pt;
+  font-weight: lighter;
+}
+td {
+  font-size: 15pt;
+  color: #f1f1f1
+}
+h1 {
+  color: yellow;
+  font-size: 19pt;
+}
+
+#card1 {
+background-color:red;
+width: 250px;
+height:250px;
+margin-left: 0;
+position: absolute;
+margin-top: -43px;
+border-radius: 20px
+}
+#tituloCard1 {
+  font-size: 18pt;
+}
+#hr {
+  height: 2px;
+}
+#result1 {
+  color: white;
+  font-size: 20pt
+}
+#card2 {
+background-color: green;
+width: 200px;
+height: 150px;
+position: absolute;
+margin-left: 280px;
+border-radius: 20px
+}
+#btneua {
+  margin: 10px;
+  background-color: darkblue;
+  color: red;
+  border: none
+}
+#btn {
+  width: 180px;
+  height: 60px;
+  font-size:15pt;
+  border-radius: 8px;
+  background-color: purple;
+  border: none;
+ 
+}
